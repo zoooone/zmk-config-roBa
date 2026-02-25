@@ -100,7 +100,7 @@
 
         NUM {
             bindings = <
-&trans  &trans             &trans    &trans      &trans                           &trans    &trans            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp INT_YEN
+&trans  &trans             &trans    &trans      &trans                           &trans    &kp BACKSLASH     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp INT_YEN
 &kp N1  &kp N2             &kp N3    &kp N4      &kp N5       &trans      &trans  &kp N6    &kp N7            &kp N8                &kp N9                 &kp N0
 &trans  &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp PERCENT  &trans      &trans  &kp AMPS  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
 &trans  &trans             &trans    &trans      &trans       &trans      &trans  &trans                                                                   &kp PIPE

@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&mt ESCAPE Q      &kp W         &kp E         &kp R                        &kp T                                                                       &kp Y            &kp U  &lt 5 I  &kp O      &kp P
-&mt AT A          &kp S         &kp D         &kp F                        &kp G        &mt PLUS ASTERISK                  &mt MINUS SLASH             &kp H            &kp J  &kp K    &kp L      &mt LEFT_SHIFT UNDER
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &mt EXCL QUESTION                  &mt LESS_THAN GREATER_THAN  &mt CARET EQUAL  &kp N  &kp M    &kp COMMA  &kp DOT
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 3 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 6 INT_MUHENKAN      &kp BACKSPACE               &lt 1 ENTER                                 &kp DEL
+&mt ESCAPE Q      &kp W         &kp E         &kp R                        &kp T                                                                       &kp Y              &kp U  &lt 5 I  &kp O      &kp P
+&mt AT A          &kp S         &kp D         &kp F                        &kp G        &mt PLUS ASTERISK                  &mt CARET EQUAL             &kp H              &kp J  &kp K    &kp L      &mt LEFT_SHIFT UNDER
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &mt MINUS SLASH                    &mt LESS_THAN GREATER_THAN  &mt EXCL QUESTION  &kp N  &kp M    &kp COMMA  &kp DOT
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 4 INT_HENKAN  &lt 1 SPACE  &lt_to_layer_0 6 INT_MUHENKAN      &kp BACKSPACE               &lt 4 ENTER                                   &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -100,7 +100,7 @@
 
         NUM {
             bindings = <
-&trans  &trans             &trans    &trans      &trans                           &trans    &trans            &trans                &trans                 &trans
+&trans  &trans             &trans    &trans      &trans                           &trans    &trans            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp INT_YEN
 &kp N1  &kp N2             &kp N3    &kp N4      &kp N5       &trans      &trans  &kp N6    &kp N7            &kp N8                &kp N9                 &kp N0
 &trans  &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp PERCENT  &trans      &trans  &kp AMPS  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
 &trans  &trans             &trans    &trans      &trans       &trans      &trans  &trans                                                                   &kp PIPE
